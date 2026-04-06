@@ -1,0 +1,30 @@
+html,body{
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgba(95, 158, 160, 0.68);
+    height: 1000px;
+}
+
+.share{
+    background-color: rgba(108, 52, 52, 0.333);
+    margin-bottom: 1rem;
+    height: 20%;
+}
+
+.wait{
+    position: sticky;
+    background-color: aquamarine;
+    top: 0;
+}
+
+.ctn1{
+    height: 100%;
+}
