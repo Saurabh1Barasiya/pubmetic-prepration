@@ -1,0 +1,33 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent{
+    height: 50%;
+    width: 50%;
+    background-color: aquamarine;
+    border-radius: 30px;
+    position: relative;
+}
+
+.child{
+    background-color:red;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
