@@ -1,0 +1,14 @@
+let a = 100;
+
+function outer() {
+    let a = 10;
+
+    function inner() {
+        console.log(a);  // 10
+    }
+
+    return inner;
+}
+
+const fn = outer();
+fn();
